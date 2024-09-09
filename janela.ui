@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWIndow</class>
+ <widget class="QMainWindow" name="MainWIndow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LavAutomatic V.1.0</string>
+  </property>
+  <property name="windowOpacity">
+   <double>-8.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-radius:12px;
+border:2px solid yellowgreen;
+animation: 1.5s linear infinite;
+
+
+
+
+
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="loadButton">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
+      <y>100</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+width: 98%;
+padding: 10px;
+border-color:black;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 12px;
+border:2px solid cyan;
+background-color: #323232;
+color: white;
+font-family: 'Orbitron', sans-serif;
+}
+QPushButton:hover{
+	background-color: cyan;
+    color:black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Carregar Planilha</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendButton">
+    <property name="geometry">
+     <rect>
+      <x>302</x>
+      <y>99</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+width: 98%;
+padding: 10px;
+border-color:black;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 12px;
+border:2px solid cyan;
+background-color: #323232;
+color: white;
+font-family: 'Orbitron', sans-serif;
+}
+QPushButton:hover{
+	background-color: cyan;
+    color:black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Enviar Mensagens</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="statusText">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>451</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+color: white;
+background-color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
